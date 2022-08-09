@@ -169,6 +169,8 @@ GEM
     regexp_parser (2.5.0)
     reline (0.3.1)
       io-console (~> 0.5)
+    request_store (1.5.1)
+      rack (>= 1.4)
     rexml (3.2.5)
     rubyzip (2.3.2)
     selenium-webdriver (4.3.0)
@@ -224,6 +226,7 @@ DEPENDENCIES
   jbuilder
   puma (~> 5.0)
   rails (~> 7.0.3, >= 7.0.3.1)
+  request_store
   selenium-webdriver
   sprockets-rails
   sqlite3 (~> 1.4)
